@@ -43,8 +43,8 @@ namespace Login_and_Register_System
 
         private void closeAppButton_Click(object sender, EventArgs e)
         {
-            //close app function
             Close();
+            Environment.Exit(0);
         }
     }
 }

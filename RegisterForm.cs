@@ -67,7 +67,7 @@ namespace Login_and_Register_System
             }
             else
             {
-                MessageBox.Show("Passwords does not match, Please Re-enter", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Passwords don't match, Please Re-enter", "Registration Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtComPassword.Text = "";
                 txtPassword.Text = "";
                 txtPassword.Focus();
